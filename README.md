@@ -1,3 +1,2 @@
 # cse326
-[Download the file from Google Drive](https://drive.google.com/your-shareable-link)
-Google Drive File Link: https://drive.google.com/your-shareable-link
+https://drive.google.com/drive/folders/199FYaI2IWck8NmpIHeP3IctO_lhVzMZv?usp=sharing
