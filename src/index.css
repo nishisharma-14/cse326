@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold-primary: #FFD700;
+  --gold-metallic: #D4AF37;
+  --gold-accent: #FFB100;
+  --black-primary: #000000;
+  --black-rich: #0A0A0A;
+  --black-accent: #141414;
+}
+
+body {
+  background-color: var(--black-primary);
+  color: #fff;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black-rich);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold-metallic);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-accent);
+}
+
+@keyframes shine {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}
+
+.shiny-text {
+  position: relative;
+  background: linear-gradient(90deg, #ffd700 25%, #fff 50%, #ffd700 75%);
+  background-size: 200% 100%;
+  animation: shine 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
