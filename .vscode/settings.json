@@ -1,0 +1,9 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "postcss": "css",
+    "scss": "css"
+  },
+  "css.validate": false,
+  "git.ignoreLimitWarning": true
+}
